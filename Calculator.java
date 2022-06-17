@@ -1,12 +1,12 @@
 import javax.swing.*;
 import java.awt.event.*;
 
-public class artCalc implements ActionListener{
+public class Calculator implements ActionListener{
 
 	JTextField textFieldOne, textFieldTwo, textFieldThree;
 	JButton btnOne, btnTwo, btnThree, btnFour, btnFive, btnSix, btnSeven;
 
-	artCalc() {
+	Calculator() {
 		JFrame frameMain = new JFrame();
 		textFieldOne = new JTextField();
 		textFieldOne.setBounds(50, 50, 100, 20);
@@ -90,6 +90,7 @@ public class artCalc implements ActionListener{
 	}
 	
 	public static void main(String []args) {
-		new artCalc();
+		new Calculator();
 	}
+
 }
