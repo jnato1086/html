@@ -1,4 +1,4 @@
-package javaapp;
+// package JTableRow;
 
 import java.awt.Color;
 import java.awt.Font;
@@ -14,9 +14,7 @@ import javax.swing.JTextField;
 import javax.swing.table.DefaultTableModel;
 
 public class JTableRow {
-
-    public static void main(String[] args){
-        
+    JTableRow(){
         // create JFrame and JTable
         JFrame frame = new JFrame();
         JTable table = new JTable(); 
@@ -155,6 +153,12 @@ public class JTableRow {
         frame.setLocationRelativeTo(null);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
+        
+
+    }
+
+    public static void main(String[] args){
+        new JTableRow();
         
     }
 }
