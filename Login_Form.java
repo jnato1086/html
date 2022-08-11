@@ -12,8 +12,8 @@ import javax.swing.JPanel;
 //import javax.swing.JPasswordField;
 import javax.swing.JTextField;
 
-import Registration_Form.Registration_Form;
-import Inventory_System.Inventory_System;
+// import Registration_Form.Registration_Form;
+// import Inventory_System.Inventory_System;
 
 
 public class Login_Form implements ActionListener 

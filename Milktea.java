@@ -98,7 +98,7 @@ public class Milktea extends javax.swing.JFrame {
             
         } catch (PrinterException ex) {
             
-            Logger.getLogger(Milktea.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(Milkteaktea.class.getName()).log(Level.SEVERE, null, ex);
         }
  
  }
